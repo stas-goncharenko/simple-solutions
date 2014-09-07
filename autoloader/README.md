@@ -7,7 +7,7 @@ that will be require needed file (in this case it will be Core/Core.php).
 Function spl_autoload_register()  will be run in \Core\Autoload::registerAutoloader()
 
 file index.php
---------------
+==============
 
 <?php
 
