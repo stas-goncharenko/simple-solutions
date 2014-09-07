@@ -14,8 +14,6 @@ require_once('Core/autoloader.php');
 
 \Core\Autoload::registerAutoloader();
 
-// run autoload Core\Core()
-
-$core = new Core\Core();
+$core = new Core\Core(); // autoload for Core\Core() will run here
 
 $core->index();
