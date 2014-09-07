@@ -16,4 +16,8 @@ $fileOne->index();
 $fileThree = new Core\Files\FileThree();
 $fileThree->index();
 
+// run autoload Core\Core() again
+$core = new Core\Core();
+$core->index();
+
 var_dump( 'it\'s index file' );

@@ -10,6 +10,8 @@ class Autoload {
         $filePath = str_replace('\\', '/', $filePath);
         $filePath .= '.php';
 
+        var_dump('file ' . $filePath . ' will be include.');
+
         require_once($filePath);
     }
 
