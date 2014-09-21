@@ -7,7 +7,7 @@ that will be require needed file (in this case it will be Core/Core.php).
 Function spl_autoload_register()  will be run in \Core\Autoload::registerAutoloader()
 
 file index.php
-
+```bash
 <?php
 
 require_once('Core/autoloader.php');
@@ -17,3 +17,4 @@ require_once('Core/autoloader.php');
 $core = new Core\Core(); // autoload for Core\Core() will run here
 
 $core->index();
+```
