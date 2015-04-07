@@ -13,4 +13,4 @@ $params = json_encode($params);
 $params = base64_encode($params);
 $params = urlencode($params);
 
-header('Location: ' . 'http://example.loc/phpArrayToUrlAndJsGetArrayFromUrl.html?params=' . $params);
+header('Location: ' . 'http://example.loc/JsGetArrayFromUrl.html?params=' . $params);
